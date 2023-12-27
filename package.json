@@ -1,0 +1,19 @@
+{
+  "name": "tmt_liff",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "2.23.0",
+    "vue": "3.3.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.0",
+    "typescript": "5.3.3",
+    "vite": "5.0.10",
+    "vue-tsc": "1.8.27"
+  }
+}
